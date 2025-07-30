@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.vaskorr.testapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.vaskorr.testapp"
