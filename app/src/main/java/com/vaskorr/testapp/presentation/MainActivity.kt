@@ -1,4 +1,4 @@
-package com.vaskorr.testapp
+package com.vaskorr.testapp.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.vaskorr.testapp.ui.theme.TestAppTheme
+import com.vaskorr.testapp.presentation.ui.theme.TestAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
