@@ -50,6 +50,8 @@ android {
 }
 
 dependencies {
+    implementation(platform(libs.koin.bom))
+    implementation(platform(libs.compose.bom))
     implementation(libs.bundles.core)
     implementation(libs.bundles.compose)
     implementation(libs.bundles.koin)

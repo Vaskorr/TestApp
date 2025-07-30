@@ -1,15 +1,14 @@
 [versions]
 #Core
-agp = "8.4.2"
-kotlin = "2.1.0"
-coreKtx = "1.13.1"
-lifecycleRuntimeKtx = "2.8.3"
-securityCrypto = "1.0.0"
+agp = "8.5.2"
+kotlin = "1.9.0"
+coreKtx = "1.16.0"
+lifecycleRuntimeKtx = "2.9.2"
 ksp = "2.1.21-2.0.2"
 
 #Compose
-activityCompose = "1.9.2"
-composeBom = "2023.08.00"
+activityCompose = "1.10.1"
+composeBom = "2025.07.00"
 
 #Koin
 koinBom = "3.5.3"
@@ -18,7 +17,6 @@ koinBom = "3.5.3"
 #Core
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
-androidx-security-crypto = { group = "androidx.security", name = "security-crypto", version.ref = "securityCrypto" }
 
 #Compose
 compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
@@ -27,7 +25,7 @@ compose-ui = { group = "androidx.compose.ui", name = "ui" }
 compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
 compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
 compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+compose-material3 = { group = "androidx.compose.material3", name = "material3-android" }
 compose-animation = { group = "androidx.compose.animation", name = "animation" }
 compose-icons = { group = "androidx.compose.material", name = "material-icons-extended" }
 compose-lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycleRuntimeKtx" }
@@ -50,8 +48,7 @@ compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "
 
 core = [
     "androidx-core-ktx",
-    "androidx-lifecycle-runtime-ktx",
-    "androidx-security-crypto"
+    "androidx-lifecycle-runtime-ktx"
 ]
 
 compose = [
