@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">Test App</string>
+    <string name="wrong_data">Неверные данные</string>
+    <string name="back">Назад</string>
+    <string name="further">Продолжить</string>
+    <string name="member_number">Номер участника</string>
+    <string name="code">Код</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="art">art</string>
+    <string name="my_purchases">МОИ ПОКУПКИ</string>
+    <string name="settings">НАСТРОЙКИ</string>
+    <string name="email">E-mail</string>
+    <string name="language">Язык</string>
+    <string name="russian">русский</string>
+
+    <string name="registration_for_clients">Регистрация для клиентов банка</string>
+    <string name="number_from_bank">Номер из 16 цифр, который вы получили от банка</string>
+    <string name="code_from_bank">Код, который вы получили от банка</string>
+    <string name="name_latin_from_passport">Имя (на латинице, как в загранпаспорте)</string>
+    <string name="surname_latin_from_passport">Фамилия (на латинице, как в загранпаспорте)</string>
+    <string name="by_pressing_you_agree">Нажимая кнопку продолжить, <u>вы соглашаетесь с условиями участия</u></string>
+    <string name="need_to_confirm">Необходимо подтвердить</string>
+    <string name="biometric_enter">Вход по биометрии</string>
+    <string name="change_4_symbols_code">Сменить 4-х значный код</string>
+
+
+    <string name="random_phone">+79243014334</string>
+    <string name="random_email">kursantik341@gmail.com</string>
+
 </resources>

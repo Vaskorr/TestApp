@@ -6,7 +6,7 @@ import com.vaskorr.testapp.domain.repository.UserRepository
 class GetUserUseCase(
     private val userRepository: UserRepository
 ) {
-    operator fun invoke(): User {
+    operator fun invoke(): User? {
         return userRepository.getUser()
     }
 }

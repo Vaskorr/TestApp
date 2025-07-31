@@ -4,5 +4,5 @@ import com.vaskorr.testapp.domain.model.User
 
 interface UserRepository {
     fun saveUser(name: String, surname: String)
-    fun getUser(): User
+    fun getUser(): User?
 }

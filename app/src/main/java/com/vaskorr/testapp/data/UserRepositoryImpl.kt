@@ -13,9 +13,15 @@ class UserRepositoryImpl(
         preferencesManager.saveString(DataConsts.USER_SURNAME, surname)
     }
 
-    override fun getUser(): User = User(
-        name = preferencesManager.getString(DataConsts.USER_NAME),
-        surname = preferencesManager.getString(DataConsts.USER_SURNAME)
-    )
+    override fun getUser(): User? {
+        val user = User(
+            name = preferencesManager.getString(DataConsts.USER_NAME),
+            surname = preferencesManager.getString(DataConsts.USER_SURNAME)
+        )
+        if (user.name.isEmpty() || user.surname.isEmpty()) {
+            return null
+        }
+        return user
+    }
 
 }
